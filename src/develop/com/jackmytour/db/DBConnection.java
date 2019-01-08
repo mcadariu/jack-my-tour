@@ -27,7 +27,7 @@ public class DBConnection {
 		System.err.println("WAZZUP");
 		
 	 
-		try {
+		drivertry {
 			//this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jmt","root", "root");
 			//this.connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jmt","root", "ping2jmt");
 			this.connection = createConnection();
@@ -48,7 +48,19 @@ public class DBConnection {
   
   public static Connection createConnection() throws SQLException{
 
-      String driver = "com.mysql.jdbc.Driver";
+      String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
       //String url    = "jdbc:mysql://localhost:3306/jmt";
       String url    = "jdbc:mysql://localhost:3306/jmt";
       String username = "jmt";
