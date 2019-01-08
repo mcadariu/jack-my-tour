@@ -66,6 +66,42 @@ public class DBConnection {
       String username = "jmt";
       String password = "ping2jmt";            // Change it to your Password
       System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
+	  String  = "com.mysql.jdbc.Driver";
+      //String url    = "jdbc:mysql://localhost:3306/jmt";
+      String url    = "jdbc:mysql://localhost:3306/jmt";
+      String username = "jmt";
+      String password = "ping2jmt";            // Change it to your Password
+      System.setProperty(driver,"");
 
       return DriverManager.getConnection(url,username,password);
 
